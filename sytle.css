@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Lato", sans-serif;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+}
+
+.titre{
+    display: flex;
+}
+
+.accumulator{
+    font-size: 50px;
+    color: red;
+    width:80px;
+    height: 80px;
+}
+
+.current{
+    background-color: red;
+    font-size: 15px;
+    color: white;
+    width:100px;
+    height:100px;
+}
+.point{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+.dice{
+    width: 150px;
+    height: 150px;
+}
+
+#newgame:hover{
+    cursor: pointer;
+    color: rebeccapurple;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Roll Dice</title>
+</head>
+<body>
+
+    <div id="player1" class="player">
+        <div class="titre">
+            <h1>PLAYER 1</h1>
+            <div id ="redDot1" class = "redDot"></div>
+        </div>
+        <div id="accumulator1" class="accumulator"></div>
+        <div class="current">
+           <p>CURRENT</p>
+           <p id="current1" class="result" ></p>
+        </div>
+    </div>
+
+    <div id="commandes">
+        <button id="newgame">NEW GAME</button>
+        <div id="dice1" class="dice"><img src="dice-1.png" width="150"></div>
+        <div id="dice2" class="dice"><img src="dice-1.png" width="150"></div>
+        <button id="roll">ROLL DICE</button>
+        <button id="hold">HOLD</button>
+        <div id="victory"><p></p></div>
+    </div >
+
+    <div id="player2" class="player">
+        <div class="titre">
+             <h1>PLAYER 2</h1>
+            <div id="redDot2" class = "redDot"></div>
+        </div>
+
+        <div id="accumulator2" class="accumulator"></div>
+        <div class="current">
+           <p>CURRENT</p>
+           <p id="current2" class="result"></p>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
